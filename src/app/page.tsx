@@ -12,6 +12,8 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
+import logotechsity from '@/images/logos/techsity.svg'
+import logotnxt from '@/images/logos/nxt.png'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
@@ -199,23 +201,30 @@ function Resume() {
     {
       company: 'Teachsity',
       title: 'Frontend Developer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      logo: logotechsity,
+      start: '2024',
+      end: 'working',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Nitax Technologies',
+      title: 'Frontend Developer',
+      logo: logotnxt,
+      start: '2019',
+      end: '2022',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'Hellosa',
+      title: 'Frontend Developer',
+      logo: logotnxt,
+      start: '2018',
+      end: '2018',
+    },
+    {
+      company: 'Phonix Media',
+      title: 'Angular Developer',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2023',
+      end: '2023',
     },
   ]
 
@@ -230,7 +239,11 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button
+        href="https://drive.google.com/file/d/11ky32KCZUj02mQtrimTxcFWUcRo8H71N/view?usp=drive_link"
+        variant="secondary"
+        className="group mt-6 w-full"
+      >
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>

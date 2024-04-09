@@ -1,4 +1,6 @@
+'use client'
 import Link from 'next/link'
+import { useEffect } from 'react'
 import clsx from 'clsx'
 
 const variantStyles = {
@@ -10,6 +12,7 @@ const variantStyles = {
 
 type ButtonProps = {
   variant?: keyof typeof variantStyles
+  onClick?: () => void // Add onClick prop to handle click event
 } & (
   | (React.ComponentPropsWithoutRef<'button'> & { href?: undefined })
   | React.ComponentPropsWithoutRef<typeof Link>
@@ -18,6 +21,7 @@ type ButtonProps = {
 export function Button({
   variant = 'primary',
   className,
+  onClick, // Add onClick prop to handle click event
   ...props
 }: ButtonProps) {
   className = clsx(
@@ -25,6 +29,16 @@ export function Button({
     variantStyles[variant],
     className,
   )
+
+  // useEffect(() => {
+  //   // If onClick prop is provided and the component is unmounted, clean up the effect
+  //   return () => {
+  //     if (onClick) {
+  //       // Remove the onClick handler when unmounting
+  //       delete props.onClick
+  //     }
+  //   }
+  // }, [onClick, props])
 
   return typeof props.href === 'undefined' ? (
     <button className={className} {...props} />
