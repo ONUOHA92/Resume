@@ -187,18 +187,18 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
+      company: 'Techumbre',
       title: 'CEO',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Teachsity',
+      title: 'Frontend Developer',
       logo: logoAirbnb,
       start: '2014',
       end: '2019',
@@ -288,12 +288,12 @@ export default async function Home() {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="https://github.com/ONUOHA92"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/collins-chidubem-onuoha-2a7b19155/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
