@@ -28,17 +28,31 @@ const projects = [
     logo: logotechsity,
   },
   {
-    name: 'HelioStream',
+    name: 'Mentor',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    link: {
+      href: 'https://mentor-staging.techsity.io/',
+      label: 'https://mentor-staging.techsity.io/',
+    },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+    name: 'calculator app',
+    description: 'A simple and well designed calculator app using Javascript',
+    link: {
+      href: 'https://calculator-app-wine-eight.vercel.app/',
+      label: 'Calculators App',
+    },
+    logo: logoCosmos,
+  },
+  {
+    name: 'calculator app',
+    description: 'The oper',
+    link: {
+      href: 'https://calculator-app-wine-eight.vercel.app/',
+      label: 'Calculators App',
+    },
     logo: logoCosmos,
   },
   {
