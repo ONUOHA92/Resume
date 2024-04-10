@@ -29,7 +29,7 @@ const projects = [
   },
   {
     name: 'ODFEL',
-    description: 'Our Company webiste  Transforming Ideas into Exceptional',
+    description: 'Distance Learning for one of the Poly in Nigeria',
 
     link: {
       href: 'https://kadpolyodfel.ng/',
@@ -38,12 +38,11 @@ const projects = [
     logo: logotechsity,
   },
   {
-    name: 'Mentor',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
+    name: 'HisLivite app',
+    description: 'This is use by a church to create songs and ministration',
     link: {
-      href: 'https://mentor-staging.techsity.io/',
-      label: 'https://mentor-staging.techsity.io/',
+      href: 'https://hislevite.rccgcra.com/home',
+      label: 'RCCG Uk',
     },
     logo: logoHelioStream,
   },
