@@ -3,26 +3,29 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
+import logotechsity from '@/images/logos/techsity.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoPlanetaria from '@/images/logos/logoDark.webp'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'batacare',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'We are the premier mobile health providers, ensuring quality and affordable healthcare for all Africans',
+    link: { href: 'https://betacare.ng/', label: 'https://betacare.ng/' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    name: 'techsity.io',
+    description: 'Our Company webiste  Transforming Ideas into Exceptional',
+
+    link: {
+      href: 'https://www.techsity.io/',
+      label: 'https://www.techsity.io/',
+    },
+    logo: logotechsity,
   },
   {
     name: 'HelioStream',

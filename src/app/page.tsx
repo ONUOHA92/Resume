@@ -15,6 +15,7 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logotechsity from '@/images/logos/techsity.svg'
 import logotnxt from '@/images/logos/nxt.png'
 import logoFacebook from '@/images/logos/facebook.svg'
+import logosidmach from '@/images/logos/sidmach.png'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import image1 from '@/images/photos/image-1.jpg'
@@ -218,6 +219,13 @@ function Resume() {
       logo: logotnxt,
       start: '2018',
       end: '2018',
+    },
+    {
+      company: 'Sidmac Technology',
+      title: 'Frontend Developer intern',
+      logo: logosidmach,
+      start: '2017',
+      end: '2017',
     },
     {
       company: 'Phonix Media',
