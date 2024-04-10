@@ -47,11 +47,11 @@ const projects = [
     logo: logoCosmos,
   },
   {
-    name: 'calculator app',
-    description: 'The oper',
+    name: 'A simple form',
+    description: 'Animate when you click on input',
     link: {
-      href: 'https://calculator-app-wine-eight.vercel.app/',
-      label: 'Calculators App',
+      href: 'https://calculator-app-lxnu.vercel.app/',
+      label: 'Simple Animated form',
     },
     logo: logoCosmos,
   },
