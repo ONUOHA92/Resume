@@ -28,6 +28,16 @@ const projects = [
     logo: logotechsity,
   },
   {
+    name: 'ODFEL',
+    description: 'Our Company webiste  Transforming Ideas into Exceptional',
+
+    link: {
+      href: 'https://kadpolyodfel.ng/',
+      label: 'Kaduna Poly distance Learning',
+    },
+    logo: logotechsity,
+  },
+  {
     name: 'Mentor',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
@@ -56,10 +66,10 @@ const projects = [
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Jrfarms',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'JR Farms Limited is a leading agribusiness in Africa determined to transform Agriculture in Africa by under- taking opportunities for growth and business that will engender sustainable food production and increased incomes for farmers in Africa.',
+    link: { href: 'https://jrfarmsafrica.com/', label: 'jrfarms' },
     logo: logoOpenShuttle,
   },
 ]
