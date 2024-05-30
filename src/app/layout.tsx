@@ -8,10 +8,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '',
-    default: 'Colins - Software designer, founder, and amateur astronaut',
+    default: 'Colins - Software Developer, founder EscrowPro',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Collins, a software designer and entrepreneur based in Nigeia. I’m the founder and CEO of EscrowPro, where we develop technologies bridge the gap of fruad between buyers and sellers in Nigeria.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
