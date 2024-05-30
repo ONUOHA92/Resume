@@ -8,7 +8,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '',
-    default: 'Colins - Software Developer, founder EscrowPro',
+    default: 'Collins - Software Developer, founder EscrowPro',
   },
   description:
     'I’m Collins, a software designer and entrepreneur based in Nigeia. I’m the founder and CEO of EscrowPro, where we develop technologies bridge the gap of fruad between buyers and sellers in Nigeria.',
